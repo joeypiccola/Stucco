@@ -15,6 +15,6 @@
         Version = '2.0.11'
     }
     'PowerShellBuild' = @{
-        Version = '0.4.1'
+        Version = '0.5.1'
     }
 }
