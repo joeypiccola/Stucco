@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.2.1] 2020-04-22
+
+### Fixed
+
+- Use PowerShellBuild v0.5.1 with psake Test task modifications for how modules are loaded during testing.
+
+### Changed
+
+- Do not load project module from within `Help.tests.ps1` as they are now loaded correctly in PowerShellBuild v0.5.1.
+- Use AppVeyor worker image that supports PowerShell Version 7
+
 ## [0.2.0] 2019-11-09
 
 ### Added
